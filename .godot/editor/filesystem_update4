@@ -1,7 +1,4 @@
+res://scenes/animal.tscn
 res://scenes/level.tscn
 res://scenes/water.tscn
-res://scenes/water.gd
-res://scenes/animal.tscn
-res://scenes/level.gd
 res://scenes/animal.gd
-res://singletons/signal_manager.gd
