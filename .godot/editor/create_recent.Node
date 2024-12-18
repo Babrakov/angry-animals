@@ -1,8 +1,8 @@
+AudioStreamPlayer2D
+Sprite2D
 Label
 VisibleOnScreenNotifier2D
 CollisionShape2D
-Sprite2D
 RigidBody2D
-AudioStreamPlayer2D
 Area2D
 Marker2D
