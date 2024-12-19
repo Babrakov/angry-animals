@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1734507468
+::res://::1734592307
 icon.svg::CompressedTexture2D::1747497870060251974::1678608104::1734075425::1::::<><>::
 README.md::TextFile::-1::1734075403::0::1::::<><>::
 ::res://assets/::1679245304
@@ -29,12 +29,12 @@ colored_castle.png::CompressedTexture2D::5732435507841267586::1563580200::173407
 waterTop_high.png::CompressedTexture2D::534415010814857909::1567976968::1734075425::1::::<><>::
 ::res://assets/ui/::1734075425
 panel_beige.png::CompressedTexture2D::577062614903294271::1567895606::1734075425::1::::<><>::
-::res://scenes/::1734421748
-animal.gd::GDScript::-1::1734421733::0::1::::<>RigidBody2D<>::
-animal.tscn::PackedScene::400490778961699763::1734421748::0::1::::<><>::uid://hhptk83624wc::::res://assets/player/parrot.png<>res://scenes/animal.gd
+::res://scenes/::1734508009
+animal.gd::GDScript::-1::1734507967::0::1::::<>RigidBody2D<>::
+animal.tscn::PackedScene::400490778961699763::1734508009::0::1::::<><>::uid://hhptk83624wc::::res://assets/player/parrot.png<>res://scenes/animal.gd<>uid://dvh5t178dl0k1::::res://assets/items/arrow.png<>uid://b4c8r73fnl52f::::res://assets/audio/stretch2.ogg
 level.gd::GDScript::-1::1734077306::0::1::::<>Node2D<>::
-level.tscn::PackedScene::5975258655815345123::1734421747::0::1::::<><>::res://scenes/level.gd<>uid://cnw3m03uaauyc::::res://assets/scene/colored_castle.png<>uid://s2rtbhjojg4q::::res://scenes/water.tscn
+level.tscn::PackedScene::5975258655815345123::1734507968::0::1::::<><>::res://scenes/level.gd<>uid://cnw3m03uaauyc::::res://assets/scene/colored_castle.png<>uid://s2rtbhjojg4q::::res://scenes/water.tscn
 water.gd::GDScript::-1::1734076153::0::1::::<>Area2D<>::
-water.tscn::PackedScene::1320203567570390026::1734421748::0::1::::<><>::res://scenes/water.gd<>uid://hu40ce55ndt2::::res://assets/scene/waterTop_high.png<>uid://bggpgocqgxuoa::::res://assets/audio/splash.ogg
+water.tscn::PackedScene::1320203567570390026::1734507968::0::1::::<><>::res://scenes/water.gd<>uid://hu40ce55ndt2::::res://assets/scene/waterTop_high.png<>uid://bggpgocqgxuoa::::res://assets/audio/splash.ogg
 ::res://singletons/::1734077237
 signal_manager.gd::GDScript::-1::1734077237::0::1::::<>Node<>::
