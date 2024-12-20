@@ -1,4 +1,5 @@
-res://scenes/animal.tscn
 res://scenes/animal.gd
+res://scenes/animal.tscn
 res://scenes/level.tscn
 res://scenes/water.tscn
+res://scenes/cup.tscn
