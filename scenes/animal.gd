@@ -109,7 +109,8 @@ func play_collision() -> void:
 	_last_collision_count = get_contact_count()
 
 func update_flight() -> void:
-	play_collision()
+	#play_collision()
+	pass
 
 func update(delta: float) -> void:
 	match _state:
@@ -135,3 +136,7 @@ func _on_input_event(viewport: Node, event: InputEvent, shape_idx: int) -> void:
 func _on_sleeping_state_changed() -> void:
 	if sleeping == true:
 		call_deferred("die")
+
+func _on_body_entered(body: Node) -> void:
+	if kick_sound.playing == false:
+		kick_sound.play()
