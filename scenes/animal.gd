@@ -41,6 +41,7 @@ func set_release() -> void:
 	freeze = false
 	apply_central_impulse(get_impulse())
 	launch_sound.play()
+	SignalManager.on_attempt_made.emit()
 
 func set_drag() -> void:
 	arrow.show()
@@ -135,6 +136,9 @@ func _on_input_event(viewport: Node, event: InputEvent, shape_idx: int) -> void:
 
 func _on_sleeping_state_changed() -> void:
 	if sleeping == true:
+		var cb = get_colliding_bodies()
+		if cb.size() > 0:
+			cb[0].die()
 		call_deferred("die")
 
 func _on_body_entered(body: Node) -> void:
