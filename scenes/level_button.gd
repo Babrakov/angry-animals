@@ -16,6 +16,7 @@ func _ready() -> void:
 	_level_scene = load("res://scenes/level%s.tscn" % level_number)
 
 func _on_pressed() -> void:
+	ScoreManager.set_level_selected(level_number)
 	get_tree().change_scene_to_packed(_level_scene)
 
 func _on_mouse_entered() -> void:
