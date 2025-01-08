@@ -17,12 +17,20 @@ func _ready() -> void:
 	score_label.text = str(best_score)
 	_level_scene = load("res://scenes/level%s.tscn" % level_number)
 
+func _process(delta: float) -> void:
+	if is_hovered() == true and scale != HOVER_SCALE:
+		scale = HOVER_SCALE
+	elif is_hovered() == false and scale != DEFAULT_SCALE:
+		scale = DEFAULT_SCALE
+
 func _on_pressed() -> void:
 	ScoreManager.set_level_selected(level_number)
 	get_tree().change_scene_to_packed(_level_scene)
 
 func _on_mouse_entered() -> void:
-	scale = HOVER_SCALE
+	#scale = HOVER_SCALE
+	pass
 
 func _on_mouse_exited() -> void:
-	scale = DEFAULT_SCALE
+	#scale = DEFAULT_SCALE
+	pass
